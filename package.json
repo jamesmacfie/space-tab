@@ -1,0 +1,15 @@
+{
+  "name": "space-tab",
+  "main": "./lib/space-tab",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["space-tab:toggle"],
+  "repository": "https://github.com/atom/space-tab",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

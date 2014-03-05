@@ -1,0 +1,5 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Convert Tabs to Spaces': 'space-tab:convert-to-spaces'
+      'Convert Spaces to Tabs': 'space-tab:convert-to-tabs'
