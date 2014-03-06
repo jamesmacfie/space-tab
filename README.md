@@ -1,5 +1,17 @@
 # space-tab package
 
-A short description of your package.
+Changes all leading tabs to spaces, or all leading spaces to tabs
 
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Usage
+* Bring up the command palate and search for `Space Tab: Convert to Tabs` or `Space Tab: Convert to Spaces
+
+or
+
+'ctrl-alt-]': 'space-tab:convert-to-tabs'
+'ctrl-alt-[': 'space-tab:convert-to-spaces'
+
+* `ctrl + alt + ]` converts spaces to tabs
+* `ctrl + alt + []` converts tabs to spaces
+
+
+![screenshot](https://raw.github.com/jamesmacfie/space-tab/screenshot.gif )
