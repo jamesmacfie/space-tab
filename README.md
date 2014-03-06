@@ -14,4 +14,4 @@ or
 * `ctrl + alt + []` converts tabs to spaces
 
 
-![screenshot](https://raw.github.com/jamesmacfie/space-tab/screenshot.gif )
+![screenshot](https://raw.github.com/jamesmacfie/space-tab/master/screenshot.gif)
