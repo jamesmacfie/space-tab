@@ -1,7 +1,7 @@
 module.exports =
 	activate: (state) ->
-		atom.commands.add 'atom-workspace' "space-tab:convert-to-tabs", => @convertToTabs()
-		atom.commands.add 'atom-workspace' "space-tab:convert-to-spaces", => @convertToSpaces()
+		atom.commands.add 'atom-workspace', "space-tab:convert-to-tabs", => @convertToTabs()
+		atom.commands.add 'atom-workspace', "space-tab:convert-to-spaces", => @convertToSpaces()
 
 	convertToTabs: ->
 		editor = atom.workspace.activePaneItem
