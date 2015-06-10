@@ -4,7 +4,7 @@ module.exports =
 		atom.commands.add 'atom-workspace', "space-tab:convert-to-spaces", => @convertToSpaces()
 
 	convertToTabs: ->
-		editor = atom.workspace.activePaneItem
+		editor = atom.workspace.getActivePaneItem()
 		spaceCount = editor.getTabLength()
 		re = new RegExp "^(( {" + spaceCount + "})+)", 'g'
 		textArray = editor.getText().split '\n'
@@ -23,7 +23,7 @@ module.exports =
 		editor.setText result
 
 	convertToSpaces: ->
-		editor = atom.workspace.activePaneItem
+		editor = atom.workspace.getActivePaneItem()
 		spaceCount = editor.getTabLength()
 		re = new RegExp "^((\t)+)", 'g'
 		textArray = editor.getText().split '\n'
