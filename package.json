@@ -1,7 +1,7 @@
 {
   "name": "space-tab",
   "main": "./lib/space-tab",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "description": "Coverts leading tabs to spaces or vice versa",
   "repository": "https://github.com/jamesmacfie/space-tab",
